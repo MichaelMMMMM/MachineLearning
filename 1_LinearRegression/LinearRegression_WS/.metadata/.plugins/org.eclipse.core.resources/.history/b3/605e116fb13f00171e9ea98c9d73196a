@@ -1,0 +1,20 @@
+import numpy as np
+import numpy.linalg as LA
+import matplotlib.pyplot as plt
+
+
+N  = 2000
+Ta = 0.001
+x  = [Ta*l for l in range(N)]
+
+y1 = np.exp(x)
+e  = np.random.rand(N).tolist();
+t1 = y1 + e - 0.5;
+
+#Create the model using polynomial up to order M
+Phi = np.matrix(N, M)
+
+plt.plot(x, t1, x, y1)
+plt.grid(True)
+plt.show()
+ 

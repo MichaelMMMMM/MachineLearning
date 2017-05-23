@@ -1,12 +1,35 @@
 -- VERSION_4
 -- START DISKCACHE_2
 /home/michael/Desktop/MachineLearning/1_LinearRegression/LinearRegression_WS/.metadata/.plugins/org.eclipse.core.resources/.projects/PolynomialModels/com.python.pydev.analysis/v2_indexcache
+main|1495542591000000000|/home/michael/Desktop/MachineLearning/1_LinearRegression/LinearRegression_WS/PolynomialModels/main.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+1
+1=main
 -- END DICTIONARY
 -- START TREE 1
-0
+21
+M|1|M!11@
+N|1|N!11@
+Ta|1|Ta!11@
+dx|0|
+e|1|e!11@
+m1|1|m1!11@
+m2|0|
+m3|0|
+phi|1|PhiMat!11@
+pol|0|
+t1|1|t1!11@
+t2|0|
+t3|0|
+w|0|
+w1|1|w1!11@
+w2|0|
+w3|0|
+x|1|x!11@
+y1|1|y1!11@
+y2|0|
+y3|0|
 -- END TREE
 -- START TREE 2
 0

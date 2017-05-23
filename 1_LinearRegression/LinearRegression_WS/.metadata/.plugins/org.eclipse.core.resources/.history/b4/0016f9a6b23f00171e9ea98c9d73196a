@@ -1,0 +1,31 @@
+import numpy as np
+import numpy.linalg as LA
+import matplotlib.pyplot as plt
+
+M  = 5
+N  = 2000
+Ta = 0.001
+x  = [Ta*l for l in range(N)]
+
+y1 = np.exp(x)
+e  = np.random.rand(N).tolist();
+t1 = y1 + e - 0.5;
+
+#Create the model using polynomial up to order M
+def polyModel(x, w_vec, M):
+    sum = w_vec[0]
+    for k in range(M-1):
+        sum = sum + w_vec[k+1]*x**(k+1)
+    return sum
+
+PhiMat = np.empty([N, M])
+for i in range(N):
+    for j in range(M):
+        PhiMat[i][j] = x[i]**j
+        
+w1 = np.matmul(PhiMat.T, PhiMat)    
+
+plt.plot(x, t1, x, y1)
+plt.grid(True)
+plt.show()
+ 

@@ -3596,6 +3596,8 @@ urlparse|/usr/lib/python2.7/urlparse.py
 user|/usr/lib/python2.7/user.py
 uu|/usr/lib/python2.7/uu.py
 uuid|/usr/lib/python2.7/uuid.py
+vboxapi.VirtualBox_constants|/usr/lib/python2.7/dist-packages/vboxapi/VirtualBox_constants.py
+vboxapi.__init__|/usr/lib/python2.7/dist-packages/vboxapi/__init__.py
 warnings|/usr/lib/python2.7/warnings.py
 wave|/usr/lib/python2.7/wave.py
 weakref|/usr/lib/python2.7/weakref.py

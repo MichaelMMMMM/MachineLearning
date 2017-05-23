@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+x  = [0.1*l for l in range(100)]
+
+y1 = np.exp(x)
+e  = np.random.rand(100) - 0.5;
+t1 = y1 + e;
+
+plt.plot(x, y1, x, t1)
+plt.grid(True)
+plt.show()
+ 

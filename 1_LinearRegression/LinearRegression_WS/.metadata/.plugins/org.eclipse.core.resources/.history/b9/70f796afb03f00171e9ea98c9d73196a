@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+N  = 2
+Ta = 0.001
+x  = [Ta*l for l in range(N)]
+
+y1 = np.exp(x)
+e  = np.random.rand(100).tolist();
+t1 = y1 + e - 0.5;
+
+plt.plot(x, y1, x, t1)
+plt.grid(True)
+plt.show()
+ 
